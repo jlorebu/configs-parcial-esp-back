@@ -22,7 +22,7 @@ eureka:
   fetch-registry: true
   registry-fetch-interval-seconds: 5
   healthcheck:
-   enabled: true
+   enabled: false
   service-url:
    default-zone: http://localhost:8761/eureka
  instance:
