@@ -51,4 +51,4 @@ resilience4j:
         permittedNumberOfCallsInHalfOpenState: 3
         automaticTransitionFromOpenToHalfOpenEnabled: true
         allowHealthIndicatorToFail: false
-        automaticTransitionFromOpenToHalfOpenEnabled: true
+  
