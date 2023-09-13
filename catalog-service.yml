@@ -52,4 +52,12 @@ resilience4j:
         permittedNumberOfCallsInHalfOpenState: 3
         automaticTransitionFromOpenToHalfOpenEnabled: true
         allowHealthIndicatorToFail: false
-  
+
+  retry: 
+    instances:
+      movie:
+        waitDuration: 1000
+        maxAttempts: 3
+        retryExceptions: 
+          - feign.FeignException$InternalServerError
+    
