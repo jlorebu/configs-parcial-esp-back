@@ -22,6 +22,8 @@ spring:
 queue:
   movie:
     name: QueueMovie
+  serie:
+    name: QueueSerie
 
 
 eureka:
