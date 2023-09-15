@@ -13,7 +13,7 @@ spring:
       version: 4.0.2
     host: localhost
     port: 27018
-    database: serie 
+    database: catalog
   zipkin:
     base-url: http://localhost:9411/
     enabled: true
