@@ -6,6 +6,8 @@ idRandom: ${random.value}
 spring:
   application:
     name: catalog-service
+    main:
+    allow-bean-definition-overriding: true
   mongodb:
     embedded:
       version: 4.0.2
