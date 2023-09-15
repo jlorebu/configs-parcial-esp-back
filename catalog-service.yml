@@ -18,18 +18,17 @@ spring:
     base-url: http://localhost:9411/
     enabled: true
 
-  rabbitmq:
-    username: guest
-    password: guest
-    host: localhost
-    port: 5672
+rabbitmq:
+  username: guest
+  password: guest
+  host: localhost
+  port: 5672
 
 queue:
   movie:
     name: QueueMovie
   serie:
     name: QueueSerie
-
 
 eureka:
   client:
@@ -78,5 +77,3 @@ resilience4j:
         maxAttempts: 3
         retryExceptions: 
           - feign.FeignException$InternalServerError
-
-  
